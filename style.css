@@ -1,0 +1,124 @@
+.bg-roxo{
+  background: purple;
+}
+
+html{
+  font-family: "Poppins";
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  background: pink;
+  position: relative;
+}
+
+ul li{
+  display: inline-block;
+}
+
+ul li a{
+  color: purple;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+}
+
+nav ul li:hover{
+  background: lightgrey;
+}
+
+nav ul ul{
+  position: absolute;
+  min-width: 200px;
+  background: lightgrey;
+  display: none;
+}
+
+ul ul li{
+  display: block;
+  background: rgb(255, 14, 14);
+}
+
+nav ul li:hover > ul{
+  display: block;
+}
+
+ul li i{
+  color: blue;
+  float: right;
+  padding-left: 20px;
+}
+
+nav div {
+  background: lightgrey;
+  color: paleturquoise;
+  font-size: 24px;
+  padding: 0.6em;
+  cursor: pointer;
+  display: none;
+}
+
+nav ul ul ul{
+  margin-left: 180px;
+  position: absolute;
+  top: 0;
+}
+
+@media(max-width: 768px){
+  nav div{
+    display: block;
+  }
+
+  ul{
+    display: none;
+    position: static;
+    background: lawngreen;
+  }
+
+  ul li{
+    display: block;
+  }
+
+  ul ul{
+    position: static;
+    background: rgb(255, 117, 117);
+  }
+
+}
+
+
+
+.bg-fundo-topo{
+  background: linear-gradient(to bottom, rgb(252, 22, 22), #fa4cce);
+  height: 60vh;
+}
+
+.text-roxo{
+  color: rgb(135, 0, 189);
+  font-family: "Cooper Black";
+}
+
+.text-rosa{
+  color: rgb(255, 0, 157);
+}
+
+.icon-rede-social{
+  font-size: 2.5rem;
+  color: white;
+  background-color: black;
+}
+
+.icon-rede-social:hover{
+  color: rgb(7, 255, 234);
+  cursor: pointer;
+  border: none;
+}
+
+
