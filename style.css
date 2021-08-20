@@ -1,5 +1,5 @@
 .bg-roxo{
-  background: purple;
+  background: rgb(163, 20, 163);
 }
 
 html{
@@ -15,7 +15,7 @@ ul{
   margin: 0;
   padding: 0;
   list-style-type: none;
-  background: pink;
+  background: rgba(185, 21, 235, 0.027);
   position: relative;
 }
 
@@ -24,41 +24,42 @@ ul li{
 }
 
 ul li a{
-  color: purple;
+  color: rgb(121, 255, 244);
   text-decoration: none;
   padding: 15px;
   display: block;
 }
 
 nav ul li:hover{
-  background: lightgrey;
+  background: rgb(255, 157, 247);
 }
 
 nav ul ul{
   position: absolute;
   min-width: 200px;
-  background: lightgrey;
+  background: rgb(232, 55, 255);
   display: none;
 }
 
 ul ul li{
   display: block;
-  background: rgb(255, 14, 14);
+  background: rgb(221, 15, 248);
 }
+
 
 nav ul li:hover > ul{
   display: block;
 }
 
 ul li i{
-  color: blue;
+  color: rgb(0, 255, 242);
   float: right;
   padding-left: 20px;
 }
 
 nav div {
-  background: lightgrey;
-  color: paleturquoise;
+  background: rgba(201, 35, 252, 0);
+  color: rgb(0, 255, 157);
   font-size: 24px;
   padding: 0.6em;
   cursor: pointer;
@@ -79,7 +80,7 @@ nav ul ul ul{
   ul{
     display: none;
     position: static;
-    background: lawngreen;
+    background: rgba(193, 0, 252, 0);
   }
 
   ul li{
@@ -88,7 +89,7 @@ nav ul ul ul{
 
   ul ul{
     position: static;
-    background: rgb(255, 117, 117);
+    background: rgb(255, 125, 201);
   }
 
 }
@@ -122,3 +123,17 @@ nav ul ul ul{
 }
 
 
+
+.original{
+  background: rgb(147, 255, 208)
+}
+
+.claro{
+  background: #fafafa;
+  height: 100vh;
+}
+
+.escuro{
+  background: #303030;
+  height: 100vh;
+}
