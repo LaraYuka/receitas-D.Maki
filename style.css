@@ -137,3 +137,47 @@ nav ul ul ul{
   background: #303030;
   height: 100vh;
 }
+
+
+
+.btn-personal {
+  color: #fff;
+  background-color: rgb(255, 55, 255);
+  border-color: rgb(235, 46, 235);
+  border-width: 0.5rem;
+  border-style: inset;
+}
+
+.btn-personal:hover {
+  color: #fff;
+  background-color: rgb(255, 31, 154);
+  border-color: rgb(255, 20, 216);
+  border-width: 0.4rem;
+  border-style: inset;
+}
+
+.btn-personal:focus, .btn-personal.focus {
+  box-shadow: 0 0 0 0.2rem rgba(255, 12, 146, 0.767);
+}
+
+.btn-personal.disabled, .btn-personal:disabled {
+  color: #fff;
+  background-color: rgb(255, 55, 255);
+  border-color: rgb(235, 46, 235);
+  border-width: 0.5rem;
+  border-style: inset;
+}
+
+.btn-personal:not(:disabled):not(.disabled):active, .btn-personal:not(:disabled):not(.disabled).active,
+.show > .btn-personal.dropdown-toggle {
+  color: #fff;
+  background-color: rgb(255, 31, 154);
+  border-color: rgb(255, 20, 216);
+  border-width: 0.4rem;
+  border-style: inset;
+}
+
+.btn-personal:not(:disabled):not(.disabled):active:focus, .btn-personal:not(:disabled):not(.disabled).active:focus,
+.show > .btn-personal.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(100, 0, 55, 0.5);
+}
