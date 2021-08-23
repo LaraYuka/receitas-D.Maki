@@ -25,52 +25,59 @@
       <ul class="navbar-nav mr-auto">
 
         <li>
-          <a href="#"><i class="fas fa-home"></i> Home</a>
+          <a href="home"><i class="fas fa-home"></i> Home</a>
         </li>
 
         <li>
-          <a href="#"><i class="fas fa-candy-cane"></i>Doce</a>
+          <a href="teste"><i class="fas fa-candy-cane"></i>Doce</a>
         
           <ul>
 
-            <li><a href="#">Bolos</a></li>
-            <li><a href="#">Chocolate</a></li>
-            <li><a href="#">Biscoitos</a></li>
-            <li><a href="#">Faceis de fazer</a></li>
+            <li><a id="aviso" data-toggle="modal" data-target="#exampleModal" href="doce">Bolos</a></li>
+
+            <li><a id="aviso" data-toggle="modal" data-target="#exampleModal" href="doce">Chocolate</a></li>
+
+            <li><a id="aviso" data-toggle="modal" data-target="#exampleModal" href="doce">Biscoitos</a></li>
+
+            <li><a id="aviso" data-toggle="modal" data-target="#exampleModal" href="doce">Faceis de fazer</a></li>
 
           </ul>
 
         </li>
 
         <li>
-          <a href="#"><i class="fas fa-hotdog"></i>Salgado</a>
+          <a href="teste"><i class="fas fa-hotdog"></i>Salgado</a>
         
           <ul>
 
-            <li><a href="#">Saladas</a></li>
-            <li><a href="#">Massas</a></li>
-            <li><a href="#">Lanches</a></li>
-            <li><a href="#">Faceis de fazer</a></li>
+            <li><a data-toggle="modal" data-target="#exampleModal" href="salgado">Saladas</a></li>
+
+            <li><a data-toggle="modal" data-target="#exampleModal" href="salgado">Massas</a></li>
+
+            <li><a data-toggle="modal" data-target="#exampleModal" href="salgado">Lanches</a></li>
+
+            <li><a data-toggle="modal" data-target="#exampleModal" href="salgado">Faceis de fazer</a></li>
 
           </ul>
         
         </li>
 
         <li>
-          <a href="#"><i class="fas fa-mail-bulk"></i>Contato</a>
+          <a data-toggle="modal" data-target="#exampleModal" href="contato"><i class="fas fa-mail-bulk"></i>Contato</a>
         </li>
 
         <li>
-          <a href="#"><i class="fas fa-address-card"></i>Cadastre-se</a>
+          <a data-toggle="modal" data-target="#exampleModal" href="cadastro"><i class="fas fa-address-card"></i>Cadastre-se</a>
         </li>
 
         <li>
-          <a href="#"><i class="fas fa-user"></i>User</a>
+          <a href="teste"><i class="fas fa-user"></i>User</a>
 
           <ul>
 
-            <li><a href="#">Email</a></li>
-            <li><a href="#">Fundo</a>
+            <li><a data-toggle="modal" data-target="#exampleModal" href="email">Email</a></li>
+
+            <li><a href="teste">Fundo</a>
               <ul>
                 
                 <li class="btn-original">Original</li>
@@ -79,7 +86,7 @@
 
               </ul>
             </li>
-            <li><a href="#">Sair</a></li>
+            <li><a data-toggle="modal" data-target="#exampleModal" href="sair">Sair</a></li>
 
           </ul>
 
@@ -96,9 +103,15 @@
   </div>
 
 
+  <br>
+  <br>
+  <br>
+
+
   <div class="row mt-3 mt-sm-4 mt-md-3">
     <div class="col-12">
       <h1 class="text-roxo text-center">Novidades:</h1>
+      <br>
     </div>
   </div>
 
@@ -114,8 +127,8 @@
 
           <p class="text-justify text-novidade ml-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit ducimus fuga at sunt eligendi, veritatis veniam est animi laborum delectus quam quo, alias officia soluta. Dolore sapiente dignissimos exercitationem vitae.</p>
 
-          <a href="receita">
-            <button class="btn btn-personal ml-5">Receita</button>
+          <a id="aviso" href="receita">   
+            <button type="button" class="btn btn-personal ml-5" data-toggle="modal" data-target="#exampleModal">Receita</button>
           </a>
 
         </div>
@@ -128,6 +141,7 @@
         
     </div>
 
+    
     <div class="col-10 col-sm-6 col-md-6">
 
       <div class="row mt-3 mt-sm-1 mt-md-1">
@@ -138,8 +152,8 @@
 
           <p class="text-justify text-novidade ml-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque saepe minus nobis voluptates cum tenetur vel unde, beatae, nam quisquam numquam illum quam, omnis reprehenderit ducimus! Perspiciatis, distinctio tempore? Ab.</p>
 
-          <a href="receita">
-            <button class="btn btn-personal ml-5">Receita</button>
+          <a id="aviso" href="receita">   
+            <button type="button" class="btn btn-personal ml-5" data-toggle="modal" data-target="#exampleModal">Receita</button>
           </a>
 
         </div>
@@ -162,6 +176,7 @@
   <div class="row mt-3 mt-sm-4 mt-md-3">
     <div class="col-12">
       <h1 class="text-roxo text-center">Populares:</h1>
+      <br>
     </div>
   </div>
 
@@ -177,8 +192,8 @@
               
           <p class="text-justify text-novidade ml-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe impedit harum fugit sequi fuga nulla officiis, magni sunt dolore, perferendis quasi numquam fugiat exercitationem ipsum mollitia molestiae quis. Reiciendis, dolor?</p>
 
-          <a href="receita">
-            <button class="btn btn-personal ml-5">Receita</button>
+          <a id="aviso" href="receita">   
+            <button type="button" class="btn btn-personal ml-5" data-toggle="modal" data-target="#exampleModal">Receita</button>
           </a>
         
         </div>
@@ -201,8 +216,8 @@
               
           <p class="text-justify text-novidade ml-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat, est praesentium! Porro sequi recusandae, blanditiis adipisci totam iste, cumque repudiandae autem quo deleniti, eius nihil. Aliquid numquam pariatur obcaecati magni?</p>
 
-          <a href="receita">   
-            <button class="btn btn-personal ml-5">Receita</button>
+          <a id="aviso" href="receita">   
+            <button type="button" class="btn btn-personal ml-5" data-toggle="modal" data-target="#exampleModal">Receita</button>
           </a>
 
         </div>
@@ -217,56 +232,106 @@
 
   </div>
 
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+    <div class="modal-dialog modal-dialog-centered" role="document">
+
+      <div class="modal-content">
+
+        <div class="modal-header">
+          
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+          </button>
+      
+        </div>
+      
+        <div class="modal-body text-center text-assunto">
+          ...
+        </div>
+        
+        <div class="modal-footer">
+          <button type="button" class="btn btn-personal" data-dismiss="modal">Close</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <br>
+  <br>
+  <br>
+    
+
   <div class="conteiner-fluid mt-2 bg-roxo">
+
 
     <div class="row mt-5">
 
-      <div class="col-12 offset-sm-2 col-sm-1 offset-md-2 col-md-1 mt-4 ">
+      <div class="w-75 p-3 col-12 offset-sm-2 col-sm-1 offset-md-2 col-md-1 mt-4 ">
         <img class="img-fluid" src="img/icon.png" alt="Receitas_D.Maki">
       </div>
 
       <div class="col-12 col-sm-4 col-md-4 mt-3">
 
         <h4 class="text-center text-white">Mapa do site</h4>
+
+        <br>
       
         <center>
         <div>
           <li>
-            <a href="#"><i class="fas fa-home"></i> Home</a>
+            <a href="home"><i class="fas fa-home"></i> Home</a>
           </li>
 
           <li>
-            <a href="#"><i class="fas fa-candy-cane"></i>Doce</a>
+            <a id="aviso" data-toggle="modal" data-target="#exampleModal" href="doce"><i class="fas fa-candy-cane"></i>Doce</a>
           </li>
 
           <li>
-            <a href="#"><i class="fas fa-hotdog"></i>Salgado</a>
+            <a data-toggle="modal" data-target="#exampleModal" href="salgado"><i class="fas fa-hotdog"></i>Salgado</a>
           </li>
 
           <li>
-            <a href="#"><i class="fas fa-mail-bulk"></i>Contato</a>
+            <a data-toggle="modal" data-target="#exampleModal" href="contato"><i class="fas fa-mail-bulk"></i>Contato</a>
           </li>
 
           <li>
-            <a href="#"><i class="fas fa-address-card"></i>Cadastre-se</a>
+            <a data-toggle="modal" data-target="#exampleModal" href="cadastro"><i class="fas fa-address-card"></i>Cadastre-se</a>
           </li>
 
         </div>
-        </center>      
+        </center>
 
+        <br>
+      
       </div>
+
       
       <div class="col-12 col-sm-4 col-md-4 mt-3">
 
         <h4 class="text-center text-white">Redes sociais</h4>
+        <h4 class="text-center text-white">Desenvolvedora</h4>
+
+        <br>
 
           <p class="text-center">
 
-            <i class="fab fa-instagram-square icon-rede-social"></i>
-            
-            <i class="fab fa-facebook-square icon-rede-social"></i>
+            <a href="insta">
+              <i class="fab fa-instagram-square icon-rede-social"></i>
+            </a>
 
-            <i class="fab fa-whatsapp-square icon-rede-social"></i>
+            <a href="face">
+              <i class="fab fa-facebook-square icon-rede-social"></i>
+            </a>
+
+            <a data-toggle="modal" data-target="#exampleModal" href="whats">
+              <i class="fab fa-whatsapp-square icon-rede-social"></i>
+            </a>
 
           </p> 
           
@@ -274,7 +339,6 @@
 
     </div>
 
-      <br>
       <br>
       <br>
     
@@ -286,6 +350,7 @@
   <script src="js/menu.js"></script>
   <script src="js/fundo.js"></script>
   <script src="js/botao.js"></script>
+  <script src="js/mensagem.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
   
